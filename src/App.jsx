@@ -19,7 +19,6 @@ const ALL_QUESTIONS = {
   ],
   yellowStripe: [
     { q: "What is the Korean word for PATTERN?", a: "Tul", options: ["Tul", "Sogi", "Makgi", "Matsoki"], emoji: "⭐" },
-    { q: "What does OMA stand for?", a: "One Martial Arts", options: ["Oriental Martial Arts", "One Martial Arts", "Official Masters", "Open Martial Academy"], emoji: "🥋" },
     { q: "What is the Korean for SITTING STANCE?", a: "Annun Sogi", options: ["Niunja Sogi", "Annun Sogi", "Junbi Sogi", "Gunnan Sogi"], emoji: "🧘" },
     { q: "What is the sitting stance weight split?", a: "50/50 — same on both legs", options: ["70/30", "60/40", "50/50 — same on both legs", "80/20"], emoji: "⚖️" },
     { q: "What is the Korean for WALKING STANCE?", a: "Gunnan Sogi", options: ["Niunja Sogi", "Annun Sogi", "Gunnan Sogi", "Junbi Sogi"], emoji: "🚶" },
@@ -362,7 +361,7 @@ export default function TKDHeroQuiz() {
         <div style={{ position: "fixed", inset: "8px", border: "4px solid rgba(255,255,255,0.08)", borderRadius: "12px", pointerEvents: "none", zIndex: 1 }} />
 
         <div style={{ position: "relative", zIndex: 2, width: "100%", maxWidth: "420px", textAlign: "center" }}>
-          <div style={{ marginBottom: "8px", fontSize: "14px", fontFamily: "'Bangers', Impact, cursive", color: "#666", letterSpacing: "4px" }}>ONE MARTIAL ARTS PRESENTS</div>
+          <div style={{ marginBottom: "8px", fontSize: "14px", fontFamily: "'Bangers', Impact, cursive", color: "#666", letterSpacing: "4px" }}>ALFIE'S MARTIAL ARTS PRESENTS</div>
           <ComicText size="clamp(40px, 11vw, 60px)" color="#ffd60a" style={{ marginBottom: "4px" }}>HERO TRAINING</ComicText>
           <ComicText size="clamp(28px, 7vw, 40px)" color="#fff" style={{ marginBottom: "24px" }}>ACADEMY</ComicText>
 
